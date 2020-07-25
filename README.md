@@ -12,7 +12,7 @@ There are few requirements before running the script:<br />
 2- ```SLACK_API_TOKEN``` -> It is used to fetch the users from the slack and send the alert. <br />
 3- ```AWS_ACCESS_KEY and AWS_SECRET_KEY``` -> AWS key to fetch the credential report and find users whose key is unused.
 
-## How the Script is working?
+## How the script is working?
 1- First It will fetch the credential report from the AWS then find out those users whose access key is being unused from last ```87 days```.<br />
 2- Fetch the users from the slack.<br />
 3- It will first call the ```alert_user()``` function which will inform user on the slack about their key is being unused from last 87 days.<br />
