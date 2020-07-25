@@ -4,7 +4,7 @@
 This script will revoke all the unused access key from aws.
 
 ## Why is this project useful?
-We all want our AWS infrastructure to be secured so disabling or removing unnecessary credentials will reduce the window of opportunity for credentials associated with a compromised or abondoned account to be used. It will also enforce good practice.
+We all want our AWS infrastructure to be secured so disabling or removing unnecessary credentials will reduce the window of opportunity for credentials associated with a compromised or abondoned account to be used. It will also enforce key rotation.
 
 ## How do I get started?
 There are few requirements before running the script:<br />
